@@ -16,3 +16,12 @@ def postagem(request, id):
         "post": post,
     }
     return render(request, 'post.html', context)
+
+def referencia(request):
+    referencia = Post.objects.all()
+
+    context = {
+        "referencia" : referencia,
+    }
+
+    return render(request, 'referencias.html', context)
