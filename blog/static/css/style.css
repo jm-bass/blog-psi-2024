@@ -112,7 +112,7 @@ img {
 /* Home */
 .home {
     margin-top: 4rem;
-    background: url(blog/static/assets/suplementos.jpg);
+    background: url(assets/suplementos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
